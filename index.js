@@ -2,7 +2,7 @@ const apiKey = 'd733171a393f28330560a3aac9e5f1ee';
 const inputElement = document.getElementById('inputElement');
 let spinnerEl = document.getElementById("spinner");
 
-//Initially set Hyderabad location
+//Initially set Hyderabad locations
 inputElement.value = 'Hyderabad';
 
 function fetchWeather(city) {
