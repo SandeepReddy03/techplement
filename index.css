@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #240941, #081a3a);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.enter{
+    color: rgb(27, 210, 58)
+}
+
+.color{
+    background-color: #fff;
+}
+.main-container {
+    text-align: center;
+    background-image: url("https://res.cloudinary.com/dtor1u6gh/image/upload/v1717562999/WhatsApp_Image_2024-06-05_at_09.14.50_oqvvpi.jpg");
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+#inputElement {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+}
+#inputElement:focus {
+    outline: none;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.city {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+.city p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.city strong {
+    font-size: 1.5em;
+}
+.spin{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 95%;
+        padding-top: 0px;
+    }
+    .city{
+        max-width: 100vw;
+        height: 100%;
+    }
+    #inputElement, button {
+        width: 80%;
+        margin-top: 15px ;
+        border-radius: 25px;
+    }
+}
